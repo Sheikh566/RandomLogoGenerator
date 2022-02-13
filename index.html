@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Random Logo Generator</title>
+</head>
+<body>
+    <div class="outer__container">
+        <div class="middle__container">
+            <h1 class="title">RANDOM LOGO <br> GENERATOR</h1>
+            <div class="ui__container">
+                <div id="box">
+                    <div class="wrapper__left">
+                        <div id="0" class="cell 0"></div>
+                        <div id="1" class="cell 1"></div>
+                        <div id="2" class="cell 2"></div>
+                        <div id="3" class="cell 3"></div>
+                        <div id="4" class="cell 4"></div>
+                        <div id="5" class="cell 5"></div>
+                        <div id="6" class="cell 4"></div>
+                        <div id="7" class="cell 5"></div>
+                        <div id="8" class="cell 6"></div>
+                        <div id="9" class="cell 9"></div>
+                        <div id="10" class="cell 10"></div>
+                        <div id="11" class="cell 11"></div>
+                        <div id="12" class="cell 12"></div>
+                        <div id="13" class="cell 13"></div>
+                        <div id="14" class="cell 14"></div>
+                    </div>        
+                    <div class="wrapper__right">
+                        <div id="15" class="cell 0"></div>
+                        <div id="16" class="cell 1"></div>
+                        <div id="17" class="cell 2"></div>
+                        <div id="18" class="cell 3"></div>
+                        <div id="19" class="cell 4"></div>
+                        <div id="20" class="cell 5"></div>
+                        <div id="21" class="cell 6"></div>
+                        <div id="22" class="cell 7"></div>
+                        <div id="23" class="cell 8"></div>
+                        <div id="24" class="cell 9"></div>
+                        <div id="25" class="cell 10"></div>
+                        <div id="26" class="cell 11"></div>
+                        <div id="27" class="cell 12"></div>
+                        <div id="28" class="cell 13"></div>
+                        <div id="29" class="cell 14"></div>
+                    </div>
+                </div>
+                <div class="controls">
+                    <input type="color" value="#303030" id="color__picker">
+                    <button id="randomize__btn"><span>Randomize</span></button>
+                    <button id="download__btn">
+                        <img class="download__icon" src="assets/download-arrow.png" alt="Download Icon">
+                    </button>
+                </div>
+                <footer>
+                    <div class='source__code'>
+                        <img class="github__icon" 
+                            src="assets/github.png" 
+                            alt="Github Icon"
+                            onclick="window.location.href = 'https://github.com/Sheikh566/RandomLogoGenerator'"
+                        />
+                        <div class="tooltip">&nbsp Show Source Code &nbsp</div>
+                    </div>
+                    <span class="footer__text">&lt© 2022 • Made w/ ♥ in KHI/&gt</span>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="./node_modules/dom-to-image/src/dom-to-image.js"></script>
+    <script src="./logic.js"></script>
+</body>
+</html>
