@@ -1,4 +1,2 @@
-# RandomLogoGenerator
-A minimalist logo generator
-LIVE: https://sheikh566.github.io/RandomLogoGenerator
-
+# Fior
+The online store of the Fior flowers.
